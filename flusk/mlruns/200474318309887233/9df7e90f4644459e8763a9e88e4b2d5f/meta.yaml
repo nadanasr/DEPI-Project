@@ -1,0 +1,15 @@
+artifact_uri: file:///media/ghannam/al_ghannam/DEPI/flusk/mlruns/200474318309887233/9df7e90f4644459e8763a9e88e4b2d5f/artifacts
+end_time: 1729849591875
+entry_point_name: ''
+experiment_id: '200474318309887233'
+lifecycle_stage: active
+run_id: 9df7e90f4644459e8763a9e88e4b2d5f
+run_name: LSTM
+run_uuid: 9df7e90f4644459e8763a9e88e4b2d5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729849565029
+status: 3
+tags: []
+user_id: ghannam

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <div class="message-container" id="message-container"></div>
+        </div>
+        <div class="input-container">
+            <!-- Create a form to capture user input -->
+            <form id="chat-form" method="POST" action="/get-response">
+                <input type="text" id="user-input" name="user_input" placeholder="Your message..." autofocus required>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
+

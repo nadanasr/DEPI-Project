@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/media/ghannam/al_ghannam/DEPI/flusk/templates/photo_2024-10-20_19-07-45.jpg') no-repeat center center/cover;
+
+}
+
+.chat-container {
+    background-image: linear-gradient(to top, #a196bcbd 0%, #2931499e 100%);
+    border-radius: 12px;
+    box-shadow: 0 0 20px #293149;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+
+.chat-box {
+    padding: 20px;
+    overflow-y: auto;
+    height: 500px;
+    border-bottom: 1px solid #ddd;
+    
+
+}
+
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 75%;
+    word-wrap: break-word;
+}
+
+.user {
+    background-color: #d1b1ae;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+    color:#fff
+}
+
+.bot {
+    background-color: #522b5b;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+    color:#fff
+}
+
+.input-container {
+    display: flex;
+    /* border-top: 1px solid #ddd; */
+}
+
+input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 0 0 0 12px;
+    flex: 1;
+    outline: none;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* input[type="text"]:focus {
+    border: 2px solid #53606a6d;
+    
+} */
+
+button {
+    background-color: #293149;
+    color: white;
+    border: none;    
+    padding: 10px 25px;
+    border-radius: 0 0 12px 0;
+    cursor: pointer;
+    /* border-top: #ddd 1px; */
+}
+
+button:hover {
+    background-color: #644a6a;
+}
+
+button:active {
+    background-color: #522b5b;
+}

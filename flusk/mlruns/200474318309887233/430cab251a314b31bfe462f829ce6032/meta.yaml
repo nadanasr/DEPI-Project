@@ -1,0 +1,15 @@
+artifact_uri: file:///media/ghannam/al_ghannam/DEPI/flusk/mlruns/200474318309887233/430cab251a314b31bfe462f829ce6032/artifacts
+end_time: 1729807811505
+entry_point_name: ''
+experiment_id: '200474318309887233'
+lifecycle_stage: active
+run_id: 430cab251a314b31bfe462f829ce6032
+run_name: RNN
+run_uuid: 430cab251a314b31bfe462f829ce6032
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729807793981
+status: 3
+tags: []
+user_id: ghannam

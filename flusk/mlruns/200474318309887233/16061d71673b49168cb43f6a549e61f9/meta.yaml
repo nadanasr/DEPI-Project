@@ -1,0 +1,15 @@
+artifact_uri: file:///media/ghannam/al_ghannam/DEPI/flusk/mlruns/200474318309887233/16061d71673b49168cb43f6a549e61f9/artifacts
+end_time: 1729807776010
+entry_point_name: ''
+experiment_id: '200474318309887233'
+lifecycle_stage: active
+run_id: 16061d71673b49168cb43f6a549e61f9
+run_name: NaiveBayes
+run_uuid: 16061d71673b49168cb43f6a549e61f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729807773517
+status: 3
+tags: []
+user_id: ghannam
