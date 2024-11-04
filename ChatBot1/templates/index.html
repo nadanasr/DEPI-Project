@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- Web Page Icon -->
+    <link rel="icon" href="../static/icon.png">
+</head>
+<body>
+
+    <div class="chat-container">
+        <form id="chat-form" method="POST" action="/get">
+            <textarea class="form-control" id="inputName" name="user" required placeholder="Type your message..."></textarea>
+            <button type="submit" id="analyze-btn">
+                <i class="fas fa-paper-plane"></i> Send
+            </button>
+            <div id="result">{{ response }}</div>
+        </form>
+    </div>
+
+    <script src="../static/main.js"></script>
+</body>
+</html>
